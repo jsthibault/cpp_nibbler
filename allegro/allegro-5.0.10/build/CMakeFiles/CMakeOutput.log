@@ -1,0 +1,1015 @@
+The system is: Linux - 3.2.0-4-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1728609792/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1728609792.dir/build.make CMakeFiles/cmTryCompileExec1728609792.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1728609792.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1728609792.dir/testCCompiler.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1728609792
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1728609792.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec1728609792.dir/testCCompiler.c.o  -o cmTryCompileExec1728609792 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1949022063/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1949022063.dir/build.make CMakeFiles/cmTryCompileExec1949022063.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1949022063.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1949022063.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1949022063
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1949022063.dir/link.txt --verbose=1
+/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec1949022063.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1949022063 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.2-5' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.7.2 (Debian 4.7.2-5) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1949022063' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -m elf_x86_64 --hash-style=both -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1949022063 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec1949022063.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1949022063/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1949022063.dir/build.make CMakeFiles/cmTryCompileExec1949022063.dir/build]
+  ignore line: [make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1949022063.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1949022063.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1949022063]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1949022063.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec1949022063.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1949022063 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.2-5' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.2 (Debian 4.7.2-5) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1949022063' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -m elf_x86_64 --hash-style=both -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1949022063 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec1949022063.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1949022063] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec1949022063.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2298419478/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2298419478.dir/build.make CMakeFiles/cmTryCompileExec2298419478.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2298419478.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2298419478.dir/testCXXCompiler.cxx.o -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2298419478
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2298419478.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec2298419478.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2298419478 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1565743591/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1565743591.dir/build.make CMakeFiles/cmTryCompileExec1565743591.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1565743591.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1565743591.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1565743591
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1565743591.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec1565743591.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1565743591 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.2-5' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.7.2 (Debian 4.7.2-5) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1565743591' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -m elf_x86_64 --hash-style=both -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1565743591 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec1565743591.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1565743591/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1565743591.dir/build.make CMakeFiles/cmTryCompileExec1565743591.dir/build]
+  ignore line: [make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1565743591.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1565743591.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1565743591]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1565743591.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec1565743591.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1565743591 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.2-5' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.2 (Debian 4.7.2-5) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1565743591' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -m elf_x86_64 --hash-style=both -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1565743591 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec1565743591.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1565743591] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec1565743591.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec235875262/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec235875262.dir/build.make CMakeFiles/cmTryCompileExec235875262.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec235875262.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec235875262.dir/CheckIncludeFile.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec235875262
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec235875262.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec235875262.dir/CheckIncludeFile.c.o  -o cmTryCompileExec235875262 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec110908677/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec110908677.dir/build.make CMakeFiles/cmTryCompileExec110908677.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec110908677.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec110908677.dir/CheckIncludeFile.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec110908677
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec110908677.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec110908677.dir/CheckIncludeFile.c.o  -o cmTryCompileExec110908677 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3033426514/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3033426514.dir/build.make CMakeFiles/cmTryCompileExec3033426514.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3033426514.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3033426514.dir/CheckIncludeFile.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3033426514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3033426514.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3033426514.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3033426514 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1092096371/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1092096371.dir/build.make CMakeFiles/cmTryCompileExec1092096371.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1092096371.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1092096371.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec1092096371
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1092096371.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1092096371.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec1092096371 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2137354533/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2137354533.dir/build.make CMakeFiles/cmTryCompileExec2137354533.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2137354533.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2137354533.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2137354533
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2137354533.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2137354533.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2137354533 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec150121242/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec150121242.dir/build.make CMakeFiles/cmTryCompileExec150121242.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec150121242.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec150121242.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec150121242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec150121242.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec150121242.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec150121242 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/types.h;linux/joystick.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3249311962/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3249311962.dir/build.make CMakeFiles/cmTryCompileExec3249311962.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3249311962.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3249311962.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3249311962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3249311962.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3249311962.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3249311962 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1783444847/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1783444847.dir/build.make CMakeFiles/cmTryCompileExec1783444847.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1783444847.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1783444847.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1783444847
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1783444847.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1783444847.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1783444847 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1949587519/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1949587519.dir/build.make CMakeFiles/cmTryCompileExec1949587519.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1949587519.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1949587519.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1949587519
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1949587519.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1949587519.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1949587519 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/io.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec172106828/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec172106828.dir/build.make CMakeFiles/cmTryCompileExec172106828.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec172106828.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec172106828.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec172106828
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec172106828.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec172106828.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec172106828 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3217145618/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3217145618.dir/build.make CMakeFiles/cmTryCompileExec3217145618.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3217145618.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3217145618.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3217145618
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3217145618.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3217145618.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3217145618 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2327995432/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2327995432.dir/build.make CMakeFiles/cmTryCompileExec2327995432.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2327995432.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2327995432.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2327995432
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2327995432.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2327995432.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2327995432 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1293124621/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1293124621.dir/build.make CMakeFiles/cmTryCompileExec1293124621.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1293124621.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1293124621.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1293124621
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1293124621.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1293124621.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1293124621 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/utsname.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3871267692/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3871267692.dir/build.make CMakeFiles/cmTryCompileExec3871267692.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3871267692.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3871267692.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3871267692
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3871267692.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3871267692.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3871267692 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4046308048/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4046308048.dir/build.make CMakeFiles/cmTryCompileExec4046308048.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4046308048.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec4046308048.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4046308048
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4046308048.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec4046308048.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4046308048 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/soundcard.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec248734241/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec248734241.dir/build.make CMakeFiles/cmTryCompileExec248734241.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec248734241.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec248734241.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec248734241
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec248734241.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec248734241.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec248734241 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files linux/soundcard.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec724548054/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec724548054.dir/build.make CMakeFiles/cmTryCompileExec724548054.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec724548054.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec724548054.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec724548054
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec724548054.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec724548054.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec724548054 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/inotify.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4250315464/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4250315464.dir/build.make CMakeFiles/cmTryCompileExec4250315464.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4250315464.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec4250315464.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4250315464
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4250315464.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec4250315464.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4250315464 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files sys/timerfd.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2704736734/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2704736734.dir/build.make CMakeFiles/cmTryCompileExec2704736734.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2704736734.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2704736734.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2704736734
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2704736734.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2704736734.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2704736734 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2173051501/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2173051501.dir/build.make CMakeFiles/cmTryCompileExec2173051501.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2173051501.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mkstemp   -o CMakeFiles/cmTryCompileExec2173051501.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2173051501
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2173051501.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mkstemp    CMakeFiles/cmTryCompileExec2173051501.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2173051501 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3481286531/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3481286531.dir/build.make CMakeFiles/cmTryCompileExec3481286531.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3481286531.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTryCompileExec3481286531.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3481286531
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3481286531.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mmap    CMakeFiles/cmTryCompileExec3481286531.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3481286531 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function mprotect exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3421878602/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3421878602.dir/build.make CMakeFiles/cmTryCompileExec3421878602.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3421878602.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mprotect   -o CMakeFiles/cmTryCompileExec3421878602.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3421878602
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3421878602.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mprotect    CMakeFiles/cmTryCompileExec3421878602.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3421878602 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function sched_yield exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec122843300/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec122843300.dir/build.make CMakeFiles/cmTryCompileExec122843300.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec122843300.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sched_yield   -o CMakeFiles/cmTryCompileExec122843300.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec122843300
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec122843300.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sched_yield    CMakeFiles/cmTryCompileExec122843300.dir/CheckFunctionExists.c.o  -o cmTryCompileExec122843300 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec75464215/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec75464215.dir/build.make CMakeFiles/cmTryCompileExec75464215.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec75464215.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTryCompileExec75464215.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec75464215
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec75464215.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sysconf    CMakeFiles/cmTryCompileExec75464215.dir/CheckFunctionExists.c.o  -o cmTryCompileExec75464215 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec648450557/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec648450557.dir/build.make CMakeFiles/cmTryCompileExec648450557.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec648450557.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec648450557.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec648450557
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec648450557.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTryCompileExec648450557.dir/CheckFunctionExists.c.o  -o cmTryCompileExec648450557 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3162936803/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3162936803.dir/build.make CMakeFiles/cmTryCompileExec3162936803.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3162936803.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=ftello   -o CMakeFiles/cmTryCompileExec3162936803.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3162936803
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3162936803.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=ftello    CMakeFiles/cmTryCompileExec3162936803.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3162936803 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining size of _Bool passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2154162022/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2154162022.dir/build.make CMakeFiles/cmTryCompileExec2154162022.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2154162022.dir/ALLEGRO_HAVE__BOOL.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2154162022.dir/ALLEGRO_HAVE__BOOL.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CheckTypeSize/ALLEGRO_HAVE__BOOL.c
+Linking C executable cmTryCompileExec2154162022
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2154162022.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2154162022.dir/ALLEGRO_HAVE__BOOL.c.o  -o cmTryCompileExec2154162022 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Performing C SOURCE FILE Test ALLEGRO_HAVE_VA_COPY succeded with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1622310432/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1622310432.dir/build.make CMakeFiles/cmTryCompileExec1622310432.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1622310432.dir/src.c.o
+/usr/bin/gcc   -msse -W -Wall   -DALLEGRO_HAVE_VA_COPY   -o CMakeFiles/cmTryCompileExec1622310432.dir/src.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1622310432
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1622310432.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DALLEGRO_HAVE_VA_COPY    CMakeFiles/cmTryCompileExec1622310432.dir/src.c.o  -o cmTryCompileExec1622310432 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+    #include <stdarg.h>
+    int main(void) {
+        va_list a, b;
+        va_copy(a, b);
+        return 0;
+    }
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3706857399/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3706857399.dir/build.make CMakeFiles/cmTryCompileExec3706857399.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3706857399.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec3706857399.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3706857399
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3706857399.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec3706857399.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3706857399 -rdynamic -lX11 -lXext 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4247094319/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4247094319.dir/build.make CMakeFiles/cmTryCompileExec4247094319.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4247094319.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec4247094319.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4247094319
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4247094319.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec4247094319.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4247094319 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec261873304/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec261873304.dir/build.make CMakeFiles/cmTryCompileExec261873304.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec261873304.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec261873304.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec261873304
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec261873304.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec261873304.dir/CheckFunctionExists.c.o  -o cmTryCompileExec261873304 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3552038859/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3552038859.dir/build.make CMakeFiles/cmTryCompileExec3552038859.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3552038859.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec3552038859.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3552038859
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3552038859.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec3552038859.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3552038859 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1538014947/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1538014947.dir/build.make CMakeFiles/cmTryCompileExec1538014947.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1538014947.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1538014947.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1538014947
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1538014947.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1538014947.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1538014947 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1007775569/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1007775569.dir/build.make CMakeFiles/cmTryCompileExec1007775569.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1007775569.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec1007775569.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1007775569
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1007775569.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec1007775569.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1007775569 -rdynamic -lICE 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1478238004/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1478238004.dir/build.make CMakeFiles/cmTryCompileExec1478238004.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1478238004.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1478238004.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1478238004
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1478238004.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1478238004.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1478238004 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec394498064/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec394498064.dir/build.make CMakeFiles/cmTryCompileExec394498064.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec394498064.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec394498064.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec394498064
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec394498064.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec394498064.dir/CheckFunctionExists.c.o  -o cmTryCompileExec394498064 -rdynamic -lpthread 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function XcursorImageCreate exists in the Xcursor passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec407761976/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec407761976.dir/build.make CMakeFiles/cmTryCompileExec407761976.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec407761976.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XcursorImageCreate   -o CMakeFiles/cmTryCompileExec407761976.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec407761976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec407761976.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XcursorImageCreate    CMakeFiles/cmTryCompileExec407761976.dir/CheckFunctionExists.c.o  -o cmTryCompileExec407761976 -rdynamic -lXcursor -lSM -lICE -lX11 -lXext 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file X11/extensions/Xinerama.h exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4275059734/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4275059734.dir/build.make CMakeFiles/cmTryCompileExec4275059734.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4275059734.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec4275059734.dir/CheckIncludeFile.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4275059734
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4275059734.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec4275059734.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4275059734 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function XineramaQueryExtension exists in the Xinerama passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2688546257/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2688546257.dir/build.make CMakeFiles/cmTryCompileExec2688546257.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2688546257.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension   -o CMakeFiles/cmTryCompileExec2688546257.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2688546257
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2688546257.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension    CMakeFiles/cmTryCompileExec2688546257.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2688546257 -rdynamic -lXinerama -lSM -lICE -lX11 -lXext 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the include file X11/extensions/Xrandr.h exists passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec297995931/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec297995931.dir/build.make CMakeFiles/cmTryCompileExec297995931.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec297995931.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec297995931.dir/CheckIncludeFile.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec297995931
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec297995931.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec297995931.dir/CheckIncludeFile.c.o  -o cmTryCompileExec297995931 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function XRRQueryExtension exists in the Xrandr passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1279859252/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1279859252.dir/build.make CMakeFiles/cmTryCompileExec1279859252.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1279859252.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XRRQueryExtension   -o CMakeFiles/cmTryCompileExec1279859252.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1279859252
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1279859252.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XRRQueryExtension    CMakeFiles/cmTryCompileExec1279859252.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1279859252 -rdynamic -lXrandr -lSM -lICE -lX11 -lXext 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Determining if the function XOpenIM exists in the X11 passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec657974045/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec657974045.dir/build.make CMakeFiles/cmTryCompileExec657974045.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec657974045.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenIM   -o CMakeFiles/cmTryCompileExec657974045.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec657974045
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec657974045.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenIM    CMakeFiles/cmTryCompileExec657974045.dir/CheckFunctionExists.c.o  -o cmTryCompileExec657974045 -rdynamic -lX11 -lSM -lICE -lX11 -lXext 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+
+Performing C SOURCE FILE Test OSS_COMPILES succeded with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec714605487/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec714605487.dir/build.make CMakeFiles/cmTryCompileExec714605487.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec714605487.dir/src.c.o
+/usr/bin/gcc  -DALLEGRO_HAVE_LINUX_SOUNDCARD_H -DALLEGRO_HAVE_SYS_SOUNDCARD_H -msse -W -Wall   -DOSS_COMPILES   -o CMakeFiles/cmTryCompileExec714605487.dir/src.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:15:28: warning: unused variable ‘abi’ [-Wunused-variable]
+Linking C executable cmTryCompileExec714605487
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec714605487.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DOSS_COMPILES    CMakeFiles/cmTryCompileExec714605487.dir/src.c.o  -o cmTryCompileExec714605487 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+        #ifdef ALLEGRO_HAVE_SOUNDCARD_H
+        #include <soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_SYS_SOUNDCARD_H
+        #include <sys/soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_LINUX_SOUNDCARD_H
+        #include <linux/soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_MACHINE_SOUNDCARD_H
+        #include <machine/soundcard.h>
+        #endif
+        int main(void) {
+            audio_buf_info abi;
+            return 0;
+        }
+Performing C SOURCE FILE Test PULSEAUDIO_COMPILES succeded with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec958279068/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec958279068.dir/build.make CMakeFiles/cmTryCompileExec958279068.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec958279068.dir/src.c.o
+/usr/bin/gcc   -msse -W -Wall   -DPULSEAUDIO_COMPILES   -o CMakeFiles/cmTryCompileExec958279068.dir/src.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:11:34: warning: unused variable ‘ss’ [-Wunused-variable]
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:10:31: warning: unused variable ‘si’ [-Wunused-variable]
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:9:29: warning: unused variable ‘c’ [-Wunused-variable]
+Linking C executable cmTryCompileExec958279068
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec958279068.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DPULSEAUDIO_COMPILES    CMakeFiles/cmTryCompileExec958279068.dir/src.c.o  -o cmTryCompileExec958279068 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+            #include <pulse/simple.h>
+            #include <pulse/error.h>
+            #include <pulse/introspect.h>
+            #include <pulse/mainloop.h>
+            int main(void)
+            {
+                /* Require pulseaudio 0.9.15 */
+                pa_context *c;
+                pa_sink_info *si;
+                pa_sink_state_t *ss;
+                return 0;
+            }
+Performing C SOURCE FILE Test FLAC_COMPILES succeded with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1347763816/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1347763816.dir/build.make CMakeFiles/cmTryCompileExec1347763816.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1347763816.dir/src.c.o
+/usr/bin/gcc   -msse -W -Wall   -DFLAC_COMPILES   -o CMakeFiles/cmTryCompileExec1347763816.dir/src.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:5:47: warning: unused variable ‘status’ [-Wunused-variable]
+Linking C executable cmTryCompileExec1347763816
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1347763816.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DFLAC_COMPILES    CMakeFiles/cmTryCompileExec1347763816.dir/src.c.o  -o cmTryCompileExec1347763816 -rdynamic -lFLAC -logg 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+            #include <FLAC/stream_decoder.h>
+            int main(void)
+            {
+                FLAC__StreamDecoderInitStatus status;
+                return 0;
+            }
+Performing C SOURCE FILE Test VORBIS_COMPILES succeded with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4141163867/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4141163867.dir/build.make CMakeFiles/cmTryCompileExec4141163867.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4141163867.dir/src.c.o
+/usr/bin/gcc   -msse -W -Wall   -DVORBIS_COMPILES   -o CMakeFiles/cmTryCompileExec4141163867.dir/src.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:6:30: warning: variable ‘callback’ set but not used [-Wunused-but-set-variable]
+Linking C executable cmTryCompileExec4141163867
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4141163867.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DVORBIS_COMPILES    CMakeFiles/cmTryCompileExec4141163867.dir/src.c.o  -o cmTryCompileExec4141163867 -rdynamic -lvorbisfile -lvorbis -logg -lm 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+Source file was:
+
+            #include <vorbis/vorbisfile.h>
+            int main(void)
+            {
+                OggVorbis_File f;
+                ov_callbacks callback;
+                vorbis_info *v = 0;
+                (void)v;
+                ov_info(&f, -1);
+                callback = OV_CALLBACKS_NOCLOSE;
+                return 0;
+            }

@@ -1,0 +1,265 @@
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3032727782/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3032727782.dir/build.make CMakeFiles/cmTryCompileExec3032727782.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3032727782.dir/TestEndianess.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3032727782.dir/TestEndianess.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec3032727782
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3032727782.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3032727782.dir/TestEndianess.c.o  -o cmTryCompileExec3032727782 -rdynamic 
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if files soundcard.h exist failed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2338995296/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2338995296.dir/build.make CMakeFiles/cmTryCompileExec2338995296.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2338995296.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2338995296.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: soundcard.h: Aucun fichier ou dossier de ce type
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2338995296.dir/CheckIncludeFiles.c.o] Erreur 1
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec2338995296/fast] Erreur 2
+
+Source:
+/* */
+#include <soundcard.h>
+
+
+int main(){return 0;}
+
+Determining if files machine/soundcard.h exist failed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2341037612/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2341037612.dir/build.make CMakeFiles/cmTryCompileExec2341037612.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2341037612.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2341037612.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:31: fatal error: machine/soundcard.h: Aucun fichier ou dossier de ce type
+compilation terminated.
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec2341037612.dir/CheckIncludeFiles.c.o] Erreur 1
+make: *** [cmTryCompileExec2341037612/fast] Erreur 2
+
+Source:
+/* */
+#include <machine/soundcard.h>
+
+
+int main(){return 0;}
+
+Determining if files libkern/OSAtomic.h exist failed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1918972130/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1918972130.dir/build.make CMakeFiles/cmTryCompileExec1918972130.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1918972130.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1918972130.dir/CheckIncludeFiles.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:30: fatal error: libkern/OSAtomic.h: Aucun fichier ou dossier de ce type
+compilation terminated.
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec1918972130.dir/CheckIncludeFiles.c.o] Erreur 1
+make: *** [cmTryCompileExec1918972130/fast] Erreur 2
+
+Source:
+/* */
+#include <libkern/OSAtomic.h>
+
+
+int main(){return 0;}
+
+Determining if the function getexecname exists failed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2320150511/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2320150511.dir/build.make CMakeFiles/cmTryCompileExec2320150511.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2320150511.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=getexecname   -o CMakeFiles/cmTryCompileExec2320150511.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2320150511
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2320150511.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=getexecname    CMakeFiles/cmTryCompileExec2320150511.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2320150511 -rdynamic 
+CMakeFiles/cmTryCompileExec2320150511.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `getexecname'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2320150511] Erreur 1
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec2320150511/fast] Erreur 2
+
+
+Performing C SOURCE FILE Test ALLEGRO_HAVE_PROCFS_ARGCV failed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2221228607/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2221228607.dir/build.make CMakeFiles/cmTryCompileExec2221228607.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2221228607.dir/src.c.o
+/usr/bin/gcc   -msse -W -Wall   -DALLEGRO_HAVE_PROCFS_ARGCV   -o CMakeFiles/cmTryCompileExec2221228607.dir/src.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:4:25: error: storage size of ‘psinfo’ isn’t known
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:4:25: warning: unused variable ‘psinfo’ [-Wunused-variable]
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+make[1]: *** [CMakeFiles/cmTryCompileExec2221228607.dir/src.c.o] Erreur 1
+make: *** [cmTryCompileExec2221228607/fast] Erreur 2
+
+Source file was:
+
+    #include <sys/procfs.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        psinfo.pr_argc = 0;
+        return 0;
+    }
+Performing C SOURCE FILE Test ALLEGRO_HAVE_SV_PROCFS_H failed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1234785630/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1234785630.dir/build.make CMakeFiles/cmTryCompileExec1234785630.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1234785630.dir/src.c.o
+/usr/bin/gcc   -msse -W -Wall   -DALLEGRO_HAVE_SV_PROCFS_H   -o CMakeFiles/cmTryCompileExec1234785630.dir/src.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:5:25: error: storage size of ‘psinfo’ isn’t known
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:6:18: error: ‘PIOCPSINFO’ undeclared (first use in this function)
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:6:18: note: each undeclared identifier is reported only once for each function it appears in
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/src.c:5:25: warning: unused variable ‘psinfo’ [-Wunused-variable]
+make[1]: *** [CMakeFiles/cmTryCompileExec1234785630.dir/src.c.o] Erreur 1
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec1234785630/fast] Erreur 2
+
+Source file was:
+
+    #include <sys/procfs.h>
+    #include <sys/ioctl.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        ioctl(0, PIOCPSINFO, &psinfo);
+        return 0;
+    }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec118173632/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec118173632.dir/build.make CMakeFiles/cmTryCompileExec118173632.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec118173632.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec118173632.dir/CheckSymbolExists.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec118173632
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec118173632.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec118173632.dir/CheckSymbolExists.c.o  -o cmTryCompileExec118173632 -rdynamic 
+CMakeFiles/cmTryCompileExec118173632.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec118173632] Erreur 1
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec118173632/fast] Erreur 2
+
+File /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec669135906/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec669135906.dir/build.make CMakeFiles/cmTryCompileExec669135906.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec669135906.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec669135906.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec669135906
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec669135906.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec669135906.dir/CheckFunctionExists.c.o  -o cmTryCompileExec669135906 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+make[1]: *** [cmTryCompileExec669135906] Erreur 1
+make: *** [cmTryCompileExec669135906/fast] Erreur 2
+
+
+Determining if the include file X11/extensions/xf86vmode.h exists failed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec476293488/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec476293488.dir/build.make CMakeFiles/cmTryCompileExec476293488.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec476293488.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec476293488.dir/CheckIncludeFile.c.o   -c /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:38: fatal error: X11/extensions/xf86vmode.h: Aucun fichier ou dossier de ce type
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec476293488.dir/CheckIncludeFile.c.o] Erreur 1
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec476293488/fast] Erreur 2
+
+
+Determining if the function XF86VidModeQueryExtension exists in the Xxf86vm failed with the following output:
+Change Dir: /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec597657239/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec597657239.dir/build.make CMakeFiles/cmTryCompileExec597657239.dir/build
+make[1]: entrant dans le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec597657239.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XF86VidModeQueryExtension   -o CMakeFiles/cmTryCompileExec597657239.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec597657239
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec597657239.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XF86VidModeQueryExtension    CMakeFiles/cmTryCompileExec597657239.dir/CheckFunctionExists.c.o  -o cmTryCompileExec597657239 -rdynamic -lXxf86vm -lSM -lICE -lX11 -lXext 
+/usr/bin/ld: cannot find -lXxf86vm
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec597657239] Erreur 1
+make[1]: quittant le répertoire « /home/loic/dev/epitech/cpp/Nibbler/allegro/allegro-5.0.10/build/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec597657239/fast] Erreur 2
+
+
